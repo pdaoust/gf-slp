@@ -1,0 +1,27 @@
+{
+  "name": "speech-therapist-website",
+  "version": "1.0.0",
+  "description": "A single-page website for a speech therapist built with 11ty",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve --incremental"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "speech-therapy",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}

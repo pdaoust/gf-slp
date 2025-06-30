@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[dev]
+  command = "npm run serve"
+  port = 8888
+  targetPort = 8080
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[functions]
+  directory = "netlify/functions"
+
+[forms]
+  enabled = true
