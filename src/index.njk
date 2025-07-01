@@ -8,7 +8,8 @@ description: "Professional speech therapy services for children and adults. Spec
 <section id="welcome" class="section section-welcome">
     <div class="container">
         <div class="welcome-content">
-            {{ sections.welcome | markdown | safe }}
+            {% set welcomeSnippet %}{% include "welcome.md" %}{% endset %}
+            {{ welcomeSnippet | markdown | safe }}
         </div>
     </div>
 </section>
@@ -17,7 +18,8 @@ description: "Professional speech therapy services for children and adults. Spec
 <section id="services" class="section section-services">
     <div class="container">
         <div class="services-content">
-            {{ sections.services | markdown | safe }}
+            {% set servicesSnippet %}{% include "services.md" %}{% endset %}
+            {{ servicesSnippet | markdown | safe }}
         </div>
     </div>
 </section>
@@ -26,7 +28,8 @@ description: "Professional speech therapy services for children and adults. Spec
 <section id="bio" class="section section-bio">
     <div class="container">
         <div class="bio-content">
-            {{ sections.bio | markdown | safe }}
+            {% set bioSnippet %}{% include "bio.md" %}{% endset %}
+            {{ bioSnippet | markdown | safe }}
         </div>
     </div>
 </section>
