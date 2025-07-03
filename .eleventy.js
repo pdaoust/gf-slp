@@ -5,11 +5,13 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/img");
 
   // Watch for changes in assets
   eleventyConfig.addWatchTarget("src/assets");
   eleventyConfig.addWatchTarget("src/css");
   eleventyConfig.addWatchTarget("src/js");
+  eleventyConfig.addWatchTarget("src/img");
 
   // Add markdown filter for Nunjucks
   const md = markdownIt({ html: true, breaks: true, linkify: true });

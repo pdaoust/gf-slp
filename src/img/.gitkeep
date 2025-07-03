@@ -1,0 +1,3 @@
+# This file ensures the img folder is tracked by git
+# You can place images here that will be copied to the root of the built site
+# Example: hero-image.jpg, logo.png, etc.

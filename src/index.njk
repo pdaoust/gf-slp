@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Speech Therapy Services - Professional Care for Communication"
-description: "Professional speech therapy services for children and adults. Specialized care for communication disorders, speech delays, and language development."
+title: "Goldfinch Speech & Language Services"
+description: "Mobile speech therapy for preschool and school-age children—personalized, playful, and convenient."
 ---
 
 <!-- Welcome Section -->
@@ -38,8 +38,8 @@ description: "Professional speech therapy services for children and adults. Spec
 <section id="contact" class="section section-contact">
     <div class="container">
         <div class="contact-content">
-            <h2>Get in Touch</h2>
-            <p>Ready to start your speech therapy journey? Contact me to schedule a consultation or ask any questions.</p>
+            {% set formPreambleSnippet %}{% include "form-preamble.md" %}{% endset %}
+            {{ formPreambleSnippet | markdown | safe }}
 
             <form name="contact" method="POST" data-netlify="true" class="contact-form">
                 <input type="hidden" name="form-name" value="contact" />

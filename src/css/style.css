@@ -40,8 +40,11 @@
   --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
 
   /* Hero Image */
-  --hero-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80'); /* Default hero image */
-  --hero-overlay: rgba(76, 96, 85, 0.45); /* Overlay for readability */
+  --hero-image: url('/img/hero-kelowna.jpg'); /* Default hero image */
+  --hero-overlay-old: rgba(76, 96, 85, 0.45); /* Overlay for readability */
+  --hero-overlay: transparent;
+
+  --section-overlay-gradient: radial-gradient(ellipse at bottom, rgba(255,220,0,0.1) 0%, rgba(255,220,0,0) 70%);
 }
 
 /* Reset and Base Styles */
@@ -72,21 +75,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  text-align: center;
+  font-family: var(--font-family-serif);
+  font-style: italic;
+  font-size: 4rem;
+  line-height: 0.9;
+  font-weight: 800;
+  margin-bottom: var(--spacing-md);
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: var(--spacing-md);
+  margin: var(--spacing-md) 0;
 }
 
 h3 {
   font-size: 1.5rem;
+  margin: var(--spacing-md) 0;
 }
 
-p {
+p, ul, ol {
   margin-bottom: var(--spacing-sm);
+}
+
+ul, ol {
+  padding-left: var(--spacing-sm);
 }
 
 a {
@@ -110,27 +123,30 @@ a:hover {
 .header {
   background-color: var(--color-background);
   border-bottom: 1px solid var(--color-border);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   box-shadow: var(--shadow-sm);
 }
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--spacing-sm) 0;
+#logo-container {
+  margin-top: 100px;
 }
 
-.nav-brand h1 {
-  font-size: 1.5rem;
-  margin: 0;
-  color: var(--color-primary);
+#logo {
+  max-width: 400px;
+}
+
+#tagline {
+  font-family: var(--font-family-sanserif);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-weight: 600;
 }
 
 .nav-menu {
   display: flex;
+  justify-content: center;
+  padding: var(--spacing-sm) 0;
   list-style: none;
   gap: var(--spacing-md);
 }
@@ -162,9 +178,8 @@ a:hover {
 }
 
 .section-welcome {
-  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  background: var(--section-overlay-gradient), linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
   color: white;
-  text-align: center;
 }
 
 .section-welcome h1,
@@ -176,7 +191,6 @@ a:hover {
 .section-welcome p {
   font-size: 1.1rem;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 /* Content Areas */
@@ -188,6 +202,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.welcome-content p {
+  font-size: 1.25rem;
+}
+
 /* Services Grid */
 .services-content h3 {
   color: var(--color-accent-dark);
@@ -195,7 +213,7 @@ a:hover {
 }
 
 .services-content ul {
-  margin-left: var(--spacing-md);
+  margin-left: var(--spacing-sm);
   margin-bottom: var(--spacing-sm);
 }
 
@@ -358,25 +376,14 @@ a:hover {
 .hero-header {
   background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)), var(--hero-image);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   color: white;
-  min-height: 320px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   box-shadow: var(--shadow-md);
   position: relative;
-}
-
-.hero-header .nav-container {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-header .nav-brand h1 {
-  color: white;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 .hero-header .nav-link {
