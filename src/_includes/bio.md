@@ -7,3 +7,5 @@ I specialize in working with preschool and school-age children, bringing speech 
 With a child-centered, play-based approach, I focus on building strong, trusting relationships with both children and their families. Every child is unique, and I’m committed to helping each one reach their full potential through personalized, engaging therapy.
 
 When I’m not in sessions, you’ll usually find me out in my garden, hanging out with my wonderful family, or maybe making a little music.
+
+<!-- TODO: accreditation -->

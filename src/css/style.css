@@ -1,7 +1,7 @@
 /* CSS Variables for easy theming */
 :root {
   /* Main Colors - Natural and Friendly */
-  --color-primary: #4a7c59;      /* Forest green */
+  --color-primary: #5e6c8e;      /* Forest green */
   --color-primary-light: #6b9b7a;
   --color-primary-dark: #2d4a3a;
 
@@ -40,7 +40,7 @@
   --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
 
   /* Hero Image */
-  --hero-image: url('/img/hero-kelowna.jpg'); /* Default hero image */
+  --hero-image: url('/img/hero-sunset.jpg'); /* Default hero image */
   --hero-overlay-old: rgba(76, 96, 85, 0.45); /* Overlay for readability */
   --hero-overlay: transparent;
 
@@ -376,7 +376,7 @@ a:hover {
 .hero-header {
   background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)), var(--hero-image);
   background-size: cover;
-  background-position: top;
+  background-position: center -300px;
   background-repeat: no-repeat;
   color: white;
   min-height: 600px;
