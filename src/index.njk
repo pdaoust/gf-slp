@@ -70,3 +70,13 @@ description: "Mobile speech therapy for preschool and school-age children—pers
         </div>
     </div>
 </section>
+
+<!-- Land acknowledgment Section -->
+<section id="land-acknowledgment" class="section section-land-acknowledgment">
+    <div class="container">
+        <div class="land-acknowledgment-content">
+            {% set landAcknowledgmentSnippet %}{% include "land-acknowledgment.md" %}{% endset %}
+            {{ landAcknowledgmentSnippet | markdown | safe }}
+        </div>
+    </div>
+</section>
