@@ -6,6 +6,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   // Watch for changes in assets
   eleventyConfig.addWatchTarget("src/assets");
