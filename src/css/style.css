@@ -85,6 +85,8 @@ h1 {
 }
 
 h2 {
+  font-family: var(--font-family-serif);
+  font-style: italic;
   font-size: 2rem;
   margin: var(--spacing-md) 0;
 }
