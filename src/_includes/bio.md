@@ -14,5 +14,5 @@ When I’m not in sessions, you’ll usually find me out in my garden, hanging o
 * [Speech-Language and Audiology Canada](https://www.sac-oac.ca/)
 * [Speech and Hearing BC](https://speechandhearingbc.ca/)
 * [Registry of Autism Service Providers (RASP)](https://www2.gov.bc.ca/gov/content/health/managing-your-health/child-behaviour-development/support-needs/autism-spectrum-disorder/build-your-support-team/registry-autism-service-providers)
-* [Hanen](https://hanen.org) certified for [It Takes Two to Talk](https://www.hanen.org/programs/it-takes-two-to-talk), [Target Word](https://www.hanen.org/programs/target-word), [More than Words](https://www.hanen.org/programs/more-than-words), [Learning Language and Loving It](https://www.hanen.org/programs/learning-language-and-loving-it)
+* [Hanen certified](https://hanen.org) for [It Takes Two to Talk](https://www.hanen.org/programs/it-takes-two-to-talk), [Target Word](https://www.hanen.org/programs/target-word), [More than Words](https://www.hanen.org/programs/more-than-words), [Learning Language and Loving It](https://www.hanen.org/programs/learning-language-and-loving-it)
 * [Lidcombe Program for Stuttering Therapy](https://lidcombeprogram.org/)
