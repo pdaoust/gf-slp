@@ -4,7 +4,7 @@ I’m Arianne Crossley, a registered speech-language pathologist passionate abou
 
 With nearly 20 years of experience in this field, I bring a calm, practical approach to supporting children and families. I’ve worked with children with complex communication needs in a child development centre as part of a multidisciplinary team, as well as within the school district. These roles have shaped my collaborative, flexible style and my belief that strong partnerships are key to meaningful progress.
 
-I specialize in working with preschool and school-age children, bringing speech and language therapy directly to them through mobile services. Whether it’s at home, in daycare, or another familiar setting, I meet kids where they’re most comfortable to create a fun, supportive space for growth and communication.
+I specialize in working with preschool and school-age children, bringing speech and language therapy directly to them. Whether it’s at home, in daycare, or another familiar setting, I meet kids where they’re most comfortable to create a fun, supportive space for growth and communication.
 
 When I’m not in sessions, you’ll usually find me out in my garden, hanging out with my wonderful family, or maybe making a little music.
 
